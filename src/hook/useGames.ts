@@ -5,6 +5,7 @@ import { CanceledError } from "axios";
 export interface Game {
     id: number;
     name: string;
+    background_image:string;
   }
   interface FetchGameResponse {
     count: number;
@@ -12,7 +13,7 @@ export interface Game {
   }
 
 const useGames =()=>{
-    const [game, setGames] = useState<Game[]>([]);
+    const [games, setGames] = useState<Game[]>([]);
     const [error, setError] = useState("");
   
     useEffect(() => {
@@ -26,7 +27,7 @@ const useGames =()=>{
         });
     },[]);
 
-    return {game,error};
+    return {games,error};
 }
 
 export default useGames;
