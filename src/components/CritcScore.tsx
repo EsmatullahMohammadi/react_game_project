@@ -10,4 +10,4 @@ const CritcScore = ({score}:Probs) => {
   )
 }
 
-export default CritcScore
+export default CritcScore;
