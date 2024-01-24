@@ -6,10 +6,8 @@ import {
   MenuItem,
   MenuList,
 } from "@chakra-ui/react";
-import { Children } from "react";
 import { BsChevronDown } from "react-icons/bs";
 import usePlatforms from "../hook/usePlatforms";
-import { Genre } from "../hook/useGenres";
 import { Platform } from "../hook/useGames";
 
 interface Probs {
