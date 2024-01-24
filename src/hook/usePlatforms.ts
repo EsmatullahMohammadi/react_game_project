@@ -1,4 +1,5 @@
 import useData from "./useData";
+import { Genre } from "./useGenres";
 
 
 interface Platform{
@@ -7,6 +8,6 @@ interface Platform{
     slug: string;
 }
 
-const usePlatforms =()=> useData<Platform>('/platforms/lists/parents')
+const usePlatforms =(selectedPlatform?: Genre | null)=> useData<Platform>('/platforms/lists/parents',{params:{platforms:selectedPlatform?.id}})
 
 export default usePlatforms;
