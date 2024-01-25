@@ -11,7 +11,7 @@ interface Probs{
 }
 
 const GameGrid = ( {gameQuery}:Probs ) => {
-  const { data, error, isLoading } = useGames(gameQuery.genres,gameQuery.platforms);
+  const { data, error, isLoading } = useGames(gameQuery);
   const skeletons = [1, 2, 3, 4, 5, 6];
 
   return (
