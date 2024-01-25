@@ -5,7 +5,6 @@ import {
   List,
   ListItem,
   Image,
-  Text,
   Spinner,
   Button,
   Heading,
