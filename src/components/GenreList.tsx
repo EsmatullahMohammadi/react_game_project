@@ -24,7 +24,7 @@ const GenreList = ({ onSelectedGenre, selctedGenre }: Probs) => {
     <>
     <Heading fontSize='2xl' marginBottom={3}>Genres</Heading>
       <List>
-        {data.map((dat) => (
+        {data?.results.map((dat) => (
           <ListItem key={dat.id} paddingY="5px">
             <HStack>
               <Image
@@ -40,7 +40,7 @@ const GenreList = ({ onSelectedGenre, selctedGenre }: Probs) => {
                 onClick={() => onSelectedGenre(dat)}
                 fontSize={"lg"}
                 variant={"link"}
-              >
+              > 
                 {dat.name}
               </Button>
             </HStack>

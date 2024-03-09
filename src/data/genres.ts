@@ -5,7 +5,7 @@ export default [
       "name": "Grand Theft Auto V",
       "released": "2013-09-17",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg",
+      "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg",
       "rating": 4.47,
       "rating_top": 5,
       "ratings": [
@@ -449,7 +449,7 @@ export default [
       "name": "The Witcher 3: Wild Hunt",
       "released": "2015-05-18",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
+      "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
       "rating": 4.65,
       "rating_top": 5,
       "ratings": [
@@ -896,7 +896,7 @@ export default [
       "name": "Portal 2",
       "released": "2011-04-18",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg",
+      "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg",
       "rating": 4.61,
       "rating_top": 5,
       "ratings": [
@@ -1383,7 +1383,7 @@ export default [
       "name": "Counter-Strike: Global Offensive",
       "released": "2012-08-21",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg",
+      "image_background": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg",
       "rating": 3.57,
       "rating_top": 4,
       "ratings": [
@@ -1787,7 +1787,7 @@ export default [
       "name": "Tomb Raider (2013)",
       "released": "2013-03-05",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg",
+      "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg",
       "rating": 4.05,
       "rating_top": 4,
       "ratings": [
@@ -2229,7 +2229,7 @@ export default [
       "name": "Portal",
       "released": "2007-10-09",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg",
+      "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg",
       "rating": 4.51,
       "rating_top": 5,
       "ratings": [
@@ -2697,7 +2697,7 @@ export default [
       "name": "Left 4 Dead 2",
       "released": "2009-11-17",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg",
+      "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg",
       "rating": 4.09,
       "rating_top": 4,
       "ratings": [
@@ -3152,7 +3152,7 @@ export default [
       "name": "The Elder Scrolls V: Skyrim",
       "released": "2011-11-11",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg",
+      "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg",
       "rating": 4.42,
       "rating_top": 5,
       "ratings": [
@@ -3597,7 +3597,7 @@ export default [
       "name": "Red Dead Redemption 2",
       "released": "2018-10-26",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg",
+      "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg",
       "rating": 4.59,
       "rating_top": 5,
       "ratings": [
@@ -4089,7 +4089,7 @@ export default [
       "name": "BioShock Infinite",
       "released": "2013-03-26",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg",
+      "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg",
       "rating": 4.38,
       "rating_top": 5,
       "ratings": [
@@ -4595,7 +4595,7 @@ export default [
       "name": "Life is Strange",
       "released": "2015-01-29",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg",
+      "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg",
       "rating": 4.11,
       "rating_top": 5,
       "ratings": [
@@ -5160,7 +5160,7 @@ export default [
       "name": "Borderlands 2",
       "released": "2012-09-18",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg",
+      "image_background": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg",
       "rating": 4.01,
       "rating_top": 4,
       "ratings": [
@@ -5677,7 +5677,7 @@ export default [
       "name": "Half-Life 2",
       "released": "2004-11-16",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg",
+      "image_background": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg",
       "rating": 4.49,
       "rating_top": 5,
       "ratings": [
@@ -6132,7 +6132,7 @@ export default [
       "name": "BioShock",
       "released": "2007-08-21",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg",
+      "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg",
       "rating": 4.36,
       "rating_top": 5,
       "ratings": [
@@ -6540,7 +6540,7 @@ export default [
       "name": "Destiny 2",
       "released": "2017-09-06",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg",
+      "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg",
       "rating": 3.54,
       "rating_top": 4,
       "ratings": [
@@ -7175,7 +7175,7 @@ export default [
       "name": "Limbo",
       "released": "2010-07-21",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg",
+      "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg",
       "rating": 4.15,
       "rating_top": 4,
       "ratings": [
@@ -7765,7 +7765,7 @@ export default [
       "name": "God of War (2018)",
       "released": "2018-04-20",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg",
+      "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg",
       "rating": 4.57,
       "rating_top": 5,
       "ratings": [
@@ -8194,7 +8194,7 @@ export default [
       "name": "Fallout 4",
       "released": "2015-11-09",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg",
+      "image_background": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg",
       "rating": 3.8,
       "rating_top": 4,
       "ratings": [
@@ -8563,7 +8563,7 @@ export default [
       "name": "DOOM (2016)",
       "released": "2016-05-13",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/587/587588c64afbff80e6f444eb2e46f9da.jpg",
+      "image_background": "https://media.rawg.io/media/games/587/587588c64afbff80e6f444eb2e46f9da.jpg",
       "rating": 4.38,
       "rating_top": 5,
       "ratings": [
@@ -8976,7 +8976,7 @@ export default [
       "name": "PAYDAY 2",
       "released": "2013-08-13",
       "tba": false,
-      "background_image": "https://media.rawg.io/media/games/73e/73eecb8909e0c39fb246f457b5d6cbbe.jpg",
+      "image_background": "https://media.rawg.io/media/games/73e/73eecb8909e0c39fb246f457b5d6cbbe.jpg",
       "rating": 3.51,
       "rating_top": 4,
       "ratings": [
