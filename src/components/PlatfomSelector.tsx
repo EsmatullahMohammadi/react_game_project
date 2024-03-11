@@ -7,7 +7,7 @@ import {
 } from "@chakra-ui/react";
 import { BsChevronDown } from "react-icons/bs";
 import usePlatforms from "../hook/usePlatforms";
-import { Platform } from "../hook/useGames";
+import { Platform } from "../hook/usePlatforms";
 
 interface Probs {
   onSelectePlatform: (platform: Platform) => void;
