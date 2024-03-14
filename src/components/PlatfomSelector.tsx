@@ -11,11 +11,12 @@ import { Platform } from "../hook/usePlatforms";
 
 interface Probs {
   onSelectePlatform: (platform: Platform) => void;
-  selectedPlatform: Platform | null;
+  selectedPlatformId?: number;
 }
 
-const PlatfomSelector = ({ onSelectePlatform,selectedPlatform }: Probs) => {
+const PlatfomSelector = ({ onSelectePlatform,selectedPlatformId}: Probs) => {
   const { data, error } = usePlatforms();
+  const selectedPlatform=data?.results.find(p=> p.id===selectedPlatformId);
 
   if (error) return;
 
