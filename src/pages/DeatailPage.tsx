@@ -6,9 +6,7 @@ const DeatailPage = () => {
   const {slug}=useParams();
   // (slug!) It say that slug can't be undefined
   const {data:game, isLoading,error}=useGame(slug!);
-  if(isLoading) return  <span>
-                          Loading <Spinner />
-                        </span>
+  if(isLoading) return  <Center> Loading <Spinner /> </Center>
   if(error || !game) throw (error);
   
   return (
