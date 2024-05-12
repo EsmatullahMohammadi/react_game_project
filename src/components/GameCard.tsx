@@ -5,6 +5,7 @@ import PlatformIconList from './PlatformIconList';
 import CritcScore from './CritcScore';
 import getCroppedImageUrl from '../services/image-url';
 import Emoji from './Emoji';
+import { Link } from 'react-router-dom';
 
 interface Probs{
   game:Game;
@@ -18,7 +19,10 @@ const GameCard = ({game}:Probs) => {
           <PlatformIconList platforms={game.parent_platforms.map(p=>p.platform)}/>
           <CritcScore score={game.metacritic}/>
         </HStack>
-        <Heading fontStyle={"2xl"}>{game.name} <Emoji rating={game.rating_top} /> </Heading>
+        <Heading fontStyle={"2xl"}>
+          <Link to={"games/"+game.slug}>{game.name}</Link>
+          <Emoji rating={game.rating_top} /> 
+        </Heading>
       </CardBody>
     </Card>
   )

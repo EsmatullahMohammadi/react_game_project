@@ -7,7 +7,13 @@ interface Probs {
 
 const GameCardContainer = ({ children }: Probs) => {
   return (
-    <Box borderRadius={10} overflow={"hidden"}>
+    <Box
+     borderRadius={10} 
+     overflow={"hidden"}
+    _hover={{
+      transform: 'scale(1.05)',
+      transition: 'transform .15s eas-in'
+    }}>
         {children}
     </Box>
   );
