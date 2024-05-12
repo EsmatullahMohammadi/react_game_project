@@ -1,5 +1,6 @@
-import { Center, Heading, Spinner, Text } from '@chakra-ui/react';
+import { Center, Heading, Spinner } from '@chakra-ui/react';
 import { useParams } from 'react-router-dom';
+import ExpandableText from '../components/ExpandableText';
 import useGame from '../hook/useGame';
 
 const DeatailPage = () => {
@@ -12,7 +13,7 @@ const DeatailPage = () => {
   return (
     <>
       <Heading alignContent={'center'}>{game.name}</Heading>
-      <Text>{game.description_raw}</Text>
+      <ExpandableText children={game.description_raw}></ExpandableText>
     </>
   )
 }
