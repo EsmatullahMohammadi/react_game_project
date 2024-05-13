@@ -1,5 +1,5 @@
 
-export interface Platform {
+export default interface Platform {
     name: string;
     id: number;
     slug: string;

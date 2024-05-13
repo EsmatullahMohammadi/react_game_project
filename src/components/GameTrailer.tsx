@@ -9,6 +9,8 @@ const GameTrailer = ({gameId}:Probs) => {
   if(isLoading) return null;
   if(error) throw error;
 
+  // data?.results.map(file=><video></video>)
+
   const first= data?.results[0];
   return first? <video src={first.data[480]} poster={first.preview} controls /> : null;
 

@@ -1,5 +1,5 @@
 import { SimpleGrid, Text } from '@chakra-ui/react'
-import { Game } from '../entitys/Game'
+import  Game from '../entitys/Game'
 import CritcScore from './CritcScore'
 import DefinationItem from './DefinationItem'
 
