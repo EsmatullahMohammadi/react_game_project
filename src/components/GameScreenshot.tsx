@@ -11,7 +11,7 @@ const GameScreenshot = ({gameId}:Probs) => {
     
     return(
         <SimpleGrid columns={{base:1 , md:2}} spacing={3}>
-            {data?.results.map(file=> <Image key={file.id} src={file.image}  />)}
+            {data?.results.map(file=> <Image key={file.id} src={file.image}   />)}
         </SimpleGrid>
     ) 
 
