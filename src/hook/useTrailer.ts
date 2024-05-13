@@ -1,4 +1,3 @@
-
 import APIClient from "../services/Api-client";
 import Trailer from "../entitys/Trailer";
 import { useQuery } from "@tanstack/react-query";

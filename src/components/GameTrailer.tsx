@@ -14,4 +14,4 @@ const GameTrailer = ({gameId}:Probs) => {
 
 }
 
-export default GameTrailer
+export default GameTrailer;
